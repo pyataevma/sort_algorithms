@@ -62,7 +62,7 @@ void sort_bubble(int mas[], int size)
                 count++;
             }
         }
-        show(mas, size);        
+        show(mas, size);
     }
     cout << count << "\n";
 }
@@ -79,10 +79,11 @@ void sort_insert(int mas[], int size)
             mas[j - 1] = x;
             count++;
         }
-        show(mas, size);      
+        show(mas, size);
     }
     cout << count << "\n";
 }
+
 int main()
 {
     setlocale(0, "");
