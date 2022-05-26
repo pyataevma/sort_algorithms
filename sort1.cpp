@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <stdlib.h>
 #include <time.h>
+#include <windows.h>
 
 using namespace std;
 
@@ -86,13 +87,15 @@ void sort_insert(int mas[], int size)
 
 int main()
 {
-    setlocale(0, "");
+    //setlocale(0, "");
     srand(100);
+    SetConsoleCP(866);
+    SetConsoleOutputCP(866);
     const int size = 20;
     int mas[size] = { 8, 7, 3, 4, 2, 9, 1, 8 };
     fill(mas, size, 0, 40);
     show(mas, size);
     //cout << endl;
-    cout << "Этапы сортировки\n";
+    cout << "123455\n \n";
     sort_insert(mas, size);
 }
